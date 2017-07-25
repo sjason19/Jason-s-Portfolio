@@ -12,6 +12,9 @@
  .text-align-left {
    text-align: left
  }
+ .experience-summary {
+   font-size: 10
+ }
 
  #page {
      display: none;
@@ -29,6 +32,11 @@
      background-repeat: no-repeat;
      background-position: center;
  }
+ #container {
+   padding-left: 2.4em;
+ }
+
+
 
  a,
 body {
@@ -80,7 +88,7 @@ a:hover {
 }
 a img:focus,
 a img:hover {
-    cursor: zoom-in
+
 }
 blockquote {
     color: #777;
