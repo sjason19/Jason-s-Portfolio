@@ -51,6 +51,22 @@ a:hover {
     text-decoration: none;
     color: #1d9b6c
 }
+#page {
+    display: none;
+}
+#loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-image: url("../img/preloader.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
 #mainNav {
     font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin-bottom: 0;
@@ -68,7 +84,7 @@ a:hover {
     font-weight: 700
 }
 #mainNav a {
-    color: #fff
+    color: #5DBCD2
 }
 #mainNav .navbar-nav .nav-item {
     -webkit-transition: background .3s ease-in-out;
@@ -126,7 +142,7 @@ a:hover {
 }
 .masthead .intro-body {
     display: table-cell;
-    vertical-align: middle
+    vertical-align: middle;
 }
 .masthead .intro-body .brand-heading {
     font-size: 50px
@@ -215,19 +231,20 @@ a:hover {
     border-radius: 0
 }
 .btn-default {
-    color: #42dca3;
-    border: 1px solid #42dca3;
+    color: #5DBCD2;
+    border: 1px solid #5DBCD2;
     background-color: transparent
 }
 .btn-default:focus,
 .btn-default:hover {
     color: #000;
-    border: 1px solid #42dca3;
+    border: 1px solid #5DBCD2;
     outline: 0;
-    background-color: #42dca3
+    background-color: #5DBCD2
 }
 ul.banner-social-buttons {
-    margin-top: 0
+    margin-top: 5em;
+    vertical-align: middle;
 }
 @media (max-width: 1199px) {
     ul.banner-social-buttons {
