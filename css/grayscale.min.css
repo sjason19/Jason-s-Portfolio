@@ -310,8 +310,6 @@ body {
 
 
 .cd-container {
-  width: 90%;
-  max-width: 1080px;
   margin: 0 auto;
   background: #2B343A;
   padding: 0 10%;
@@ -329,11 +327,40 @@ Main components
 
 -------------------------------- */
 
+/* ----------------------------
+About section
+-----------------------------*/
+.about-section {
+  padding: 0 15em 0 15em
+}
+
+.about-section h4 {
+  color: black;
+  margin-bottom: 0.5em;
+}
+
+.about-section p {
+  color: grey;
+  padding: 0;
+  margin: 0;
+}
+
+.about-section li {
+  color: black;
+}
+
+.about-section footer {
+  padding: 0 0 0 1em;
+  color: grey;
+  font-size: 14px
+}
+
+
+
 
 #cd-timeline {
   position: relative;
   padding: 2em 0;
-  margin-top: 2em;
   margin-bottom: 2em;
 }
 #cd-timeline::before {
@@ -343,12 +370,10 @@ Main components
   left: 25px;
   height: 100%;
   width: 4px;
-  background: #7E57C2;
+  background: #5DBCD2;
 }
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
-    margin-top: 3em;
-    margin-bottom: 3em;
   }
   #cd-timeline::before {
     left: 50%;
@@ -390,10 +415,10 @@ Main components
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  box-shadow: 0 0 0 4px #7E57C2, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0 4px #5DBCD2, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 .cd-timeline-img {
-  background: #673AB7;
+  background: #5DBCD2;
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
@@ -407,6 +432,7 @@ Main components
     -webkit-backface-visibility: hidden;
   }
 }
+
 
 .cd-timeline-content {
   position: relative;
