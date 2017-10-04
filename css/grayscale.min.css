@@ -44,12 +44,12 @@ a {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-    color: #42dca3
+    color: #5DBCD2
 }
 a:focus,
 a:hover {
     text-decoration: none;
-    color: #1d9b6c
+    color: #64d5ef
 }
 #page {
     display: none;
@@ -204,9 +204,6 @@ a:hover {
     background: rgba(255, 255, 255, .1)
 }
 .content-section {
-    padding-top: 150px;
-    padding-bottom: 150px;
-    background-color: #ffffff;
     h2 {
       color:black;
     }
@@ -234,8 +231,14 @@ a:hover {
 }
 @media (min-width: 992px) {
     .content-section {
-        padding-top: 100px;
-        padding-bottom: 100px
+        padding-top: 3.5em;
+        padding-bottom: 10em;
+        background-color: white;
+    }
+    .content-section-info {
+        padding-top: 10em;
+        padding-bottom: 10em;
+        background-color: white;
     }
     #map {
         height: 350px
@@ -331,13 +334,14 @@ Main components
 About section
 -----------------------------*/
 .about-section {
-  padding: 0 15em 0 15em
+  padding: 0 16em 0 16em
 }
 
 .about-section h4 {
   color: black;
   margin-bottom: 0.5em;
 }
+
 
 .about-section p {
   color: grey;
@@ -355,13 +359,16 @@ About section
   font-size: 14px
 }
 
+.about-section li {
+  color: grey;
+}
+
 
 
 
 #cd-timeline {
   position: relative;
   padding: 2em 0;
-  margin-bottom: 2em;
 }
 #cd-timeline::before {
   content: '';
@@ -480,6 +487,7 @@ About section
       flex-grow: 1;
     }
   }
+
 }
 .cd-timeline-content:after {
   content: "";
@@ -496,6 +504,11 @@ About section
   font-size: 13px;
   font-size: 0.8125rem;
 }
+
+.cd-timeline-content ul {
+  color: rgba(255,255,255,.7);
+}
+
 .cd-timeline-content .cd-date {
   display: inline-block;
 }
@@ -569,4 +582,169 @@ About section
     right: 122%;
     text-align: right;
   }
+}
+
+#projects {
+	background: #5DBCD2;
+	padding-top: 8rem;
+	padding-bottom: 3rem;
+  padding-left: 12em;
+  padding-right: 12em;
+}
+#projects .section-intro h1 {
+	color: white;
+}
+#projects .section-intro h5 {
+	color: #151515;
+}
+#projects .section-intro p {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+#projects p {
+  color: white;
+}
+
+#projects project-row {
+  color: #333C42;
+}
+.project-info {
+	margin: 4.8rem auto 0;
+	font-family: "poppins-regular", sans-serif;
+	font-size: 1.5rem;
+	text-align: center;
+}
+.project-info .collapse {
+	padding: 0;
+}
+.project-info .icon {
+	margin-bottom: 2.1rem;
+}
+.project-info .icon i {
+	font-size: 4.2rem;
+	color: FFFFFF;
+}
+.project-info h5 {
+	color: #5DBCD2;
+}
+.project-info h4 {
+	color: #5DBCD2;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.project-info p {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.project-content {
+  position: relative;
+  margin-left: 60px;
+  margin-right: 30px;
+  padding: 2em;
+  background: #333C42;
+  border-radius: 2px;
+  padding: 1em;
+  .timeline-content-info {
+    background: #2B343A;
+    padding: 5px 10px;
+    color: rgba(255,255,255,0.7);
+    font-size: 12px;
+    box-shadow:  inset 0 2px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 2px;
+    i {
+      margin-right: 5px;
+    }
+    .timeline-content-info-title, .timeline-content-info-date {
+      width: calc(50% - 2px);
+      display: inline-block;
+    }
+    @media (max-width: 500px) {
+      .timeline-content-info-title, .timeline-content-info-date {
+        display: block;
+        width:100%;
+      }
+    }
+  }
+  .content-skills {
+    font-size: 12px;
+    padding:0;
+    margin-bottom: 0;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    li {
+      background: #40484D;
+      border-radius: 2px;
+      display: inline-block;
+      padding: 2px 10px;
+      color: rgba(255,255,255,0.7);
+      margin: 3px 2px;
+      text-align: center;
+      flex-grow: 1;
+    }
+  }
+
+}
+
+.project-content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+#contact {
+	background: #151515;
+	padding-top: 8rem;
+	padding-bottom: 3rem;
+  padding-left: 12em;
+  padding-right: 12em;
+}
+#contact .section-intro h1 {
+	color: white;
+}
+#contact .section-intro h5 {
+	color: #5DBCD2;
+}
+#contact .section-intro p {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+#conact p {
+  color: white;
+}
+.contact-info {
+	margin: 4.8rem auto 0;
+	font-family: "poppins-regular", sans-serif;
+	font-size: 1.5rem;
+	text-align: center;
+}
+.contact-info .collapse {
+	padding: 0;
+}
+.contact-info .icon {
+	margin-bottom: 2.1rem;
+}
+.contact-info .icon i {
+	font-size: 4.2rem;
+	color: FFFFFF;
+}
+.contact-info h5 {
+	color: #5DBCD2;
+}
+.contact-info h4 {
+	color: #5DBCD2;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.contact-info p {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.icon-mail:before {
+    content: "\e96f";
 }
