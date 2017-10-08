@@ -718,7 +718,6 @@ About section
       flex-grow: 1;
     }
   }
-
 }
 
 .project-content:after {
@@ -764,6 +763,39 @@ About section
   content: "";
   display: table;
   clear: both;
+}
+
+
+.project-content-qs {
+  position: relative;
+  height: 18em;
+  width: 10em;
+  margin-left: 60px;
+  margin-right: 30px;
+  padding: 2em;
+  background: #333C42;
+  border-radius: 2px;
+  padding: 1em;
+  content: url("../img/trashcan.jpg");
+
+  .content-skills {
+    font-size: 12px;
+    padding:0;
+    margin-bottom: 0;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    li {
+      background: #40484D;
+      border-radius: 2px;
+      display: inline-block;
+      padding: 2px 10px;
+      color: rgba(255,255,255,0.7);
+      margin: 3px 2px;
+      text-align: center;
+      flex-grow: 1;
+    }
+  }
 }
 
 .project-content {
