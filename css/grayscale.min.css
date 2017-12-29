@@ -144,6 +144,7 @@ a:hover {
     display: table-cell;
     vertical-align: middle;
 }
+
 .masthead .intro-body .brand-heading {
     font-size: 50px
 }
@@ -163,6 +164,19 @@ a:hover {
         color: #A9A9A9;
     }
 }
+
+@media (min-width: 200px) {
+  .masthead .intro-body .intro-heading {
+    margin-top: 2.5em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .masthead .intro-body .intro-heading {
+    margin-top: 5em;
+  }
+}
+
 .btn-circle {
     font-size: 26px;
     width: 55px;
