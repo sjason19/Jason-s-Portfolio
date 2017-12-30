@@ -151,6 +151,7 @@ a:hover {
 .masthead .intro-body .intro-text {
     font-size: 18px
 }
+
 @media (min-width: 768px) {
     .masthead {
         height: 100%;
@@ -171,9 +172,53 @@ a:hover {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 200px) {
   .masthead .intro-body .intro-heading {
     margin-top: 5em;
+  }
+
+  .masthead .project-photo {
+    align: center;
+    width: 40%;
+    height: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+  }
+
+  .masthead .github-button {
+    margin-top: 3em;
+  }
+}
+
+@media(min-width: 768px) {
+  .masthead .project-content {
+    margin-top: 10em;
+  }
+
+  .masthead .project-photo {
+    align: center;
+    width: 40%;
+    height: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+  }
+
+  .masthead .ad-photo {
+    align: center;
+    width: 90%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+  }
+
+  .masthead .github-button {
+    margin-top: 4em;
   }
 }
 
@@ -195,7 +240,7 @@ a:hover {
 .btn-circle:hover {
     color: #fff;
     outline: 0;
-    background: rgba(255, 255, 255, .1)
+    background: rgba(255, 255, 255, .1)©
 }
 .btn-circle-about {
     font-size: 26px;
@@ -244,17 +289,51 @@ a:hover {
     height: 300px
 }
 
-    .content-section {
-      padding-top: 3.5em;
-      padding-bottom: 10em;
-      background-color: white;
-    }
+.content-section {
+  padding-top: 3.5em;
+  padding-bottom: 10em;
+  background-color: white;
+}
 
-    .content-section-info {
-      padding-top: 10em;
-      padding-bottom: 10em;
-      background-color: #5DBCD2;
+.content-section-info {
+  padding-top: 10em;
+  padding-bottom: 10em;
+  background-color: #5DBCD2;
+}
+
+.content-section-info .btn-default {
+    color: #000000;
+    border: 1px solid #000000;
+    background-color: transparent
+}
+
+.content-section-info .btn-default:focus,
+.content-section-info .btn-default:hover {
+    color: #5DBCD2;
+    border: 1px solid #000000;
+    outline: 0;
+    background-color: #000000
+}
+
+.content-section-info ul.banner-social-buttons {
+    margin-top: 2em;
+    vertical-align: middle;
+}
+@media (max-width: 1199px) {
+    .content-section-info ul.banner-social-buttons {
+        margin-top: 15px
     }
+}
+@media (max-width: 767px) {
+    .content-section-info ul.banner-social-buttons li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0
+    }
+    .content-section-info ul.banner-social-buttons li:last-child {
+        margin-bottom: 0
+    }
+}
 
 @media (min-width: 100px) {
     .content-section-info .about-content {
