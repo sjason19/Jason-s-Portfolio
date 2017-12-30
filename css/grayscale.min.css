@@ -171,7 +171,7 @@ a:hover {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .masthead .intro-body .intro-heading {
     margin-top: 5em;
   }
@@ -245,35 +245,52 @@ a:hover {
 }
 
     .content-section {
-        padding-top: 3.5em;
-        padding-bottom: 10em;
-        background-color: white;
+      padding-top: 3.5em;
+      padding-bottom: 10em;
+      background-color: white;
     }
+
     .content-section-info {
-        padding-top: 10em;
-        padding-bottom: 10em;
-        background-color: #5DBCD2;
+      padding-top: 10em;
+      padding-bottom: 10em;
+      background-color: #5DBCD2;
     }
+
+@media (min-width: 100px) {
+    .content-section-info .about-content {
+      text-align: left;
+    }
+}
+
+@media (min-width: 768px) {
+    .content-section-info .about-content {
+      text-align: center;
+    }
+}
     .content-section-info h4 {
       margin-bottom: 0.5em;
       color: black;
     }
+
     .content-section-info p {
       color: black;
       margin-bottom: 2px;
       margin-top: 2px;
     }
+
     .content-section-info footer {
       color: black;
       padding-top: 0.5em;
       padding-bottom: 0.5em;
       padding-left: 0.5em;
     }
+
     .content-section-info li {
       color: black;
     }
+
     #map {
-        height: 350px
+      height: 350px
     }
 
 .btn {
@@ -540,11 +557,14 @@ About section
   display: table;
   clear: both;
 }
-.cd-timeline-content h2 {
-  color: rgba(255,255,255,.9);
-  margin-top:0;
-  margin-bottom: 5px;
-}
+
+  .cd-timeline-content h2 {
+    color: rgba(255, 255, 255, .9);
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 2.0rem;
+  }
+
 .cd-timeline-content p, .cd-timeline-content .cd-date {
   color: rgba(255,255,255,.7);
   font-size: 13px;
@@ -574,10 +594,9 @@ About section
   border-right: 7px solid #333C42;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 200px) {
   .cd-timeline-content h2 {
-    font-size: 20px;
-    font-size: 1.25rem;
+    font-size: 1.3rem;
   }
   .cd-timeline-content p {
     font-size: 16px;
@@ -734,7 +753,7 @@ About section
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .project-content-mtg {
     height: 18em;
     width: 14em;
@@ -835,7 +854,7 @@ About section
 }
 }
 
-@media (min-width: 1023px) {
+@media (min-width: 768px) {
 #contact {
 	background: #151515;
 	padding-top: 8rem;
