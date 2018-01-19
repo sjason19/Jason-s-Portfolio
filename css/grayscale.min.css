@@ -812,6 +812,16 @@ About section
     margin: auto;
     text-align: center;
   }
+  .project-content-cctb {
+    height: 15em;
+    width: 155px;
+    background: #333C42;
+    border-radius: 2px;
+    padding: 1em;
+    content: url("../img/cctb.gif");
+    margin: auto;
+    text-align: center;
+  }
   .project-content-ad {
     height: 15em;
     width: 155px;
@@ -840,6 +850,16 @@ About section
     border-radius: 2px;
     padding: 1em;
     content: url("../img/mindthegap.gif");
+    margin: auto;
+    text-align: center;
+  }
+  .project-content-cctb {
+    height: 18em;
+    width: 14em;
+    background: #333C42;
+    border-radius: 2px;
+    padding: 1em;
+    content: url("../img/cctb.gif");
     margin: auto;
     text-align: center;
   }
