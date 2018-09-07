@@ -808,6 +808,16 @@ About section
 }
 
 @media (min-width: 100px) {
+  .project-content-cd {
+    height: 15em;
+    width: 155px;
+    background: #333C42;
+    border-radius: 2px;
+    padding: 1em;
+    content: url("../img/fantasy-coin.gif");
+    margin: auto;
+    text-align: center;
+  }
   .project-content-mtg {
     height: 15em;
     width: 155px;
@@ -849,6 +859,16 @@ About section
 }
 
 @media (min-width: 768px) {
+  .project-content-cd {
+    height: 18em;
+    width: 14em;
+    background: #333C42;
+    border-radius: 2px;
+    padding: 1em;
+    content: url("../img/fantasy-coin.gif");
+    margin: auto;
+    text-align: center;
+  }
   .project-content-mtg {
     height: 18em;
     width: 14em;
@@ -1018,3 +1038,149 @@ About section
     content: "\e96f";
 }
 }
+
+
+
+/* Skills Section */
+
+#skills .btn {
+  font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  text-transform: uppercase;
+  border-radius: 0
+}
+#skills .btn-default {
+  color: black;
+  border: 1px solid black;
+  background-color:transparent;
+}
+
+#skills .btn-default:focus,
+#skills .btn-default:hover {
+  color: #000;
+  border: 1px solid black;
+  outline: 0;
+  color: #5DBCD2;
+  background-color: black;
+}
+
+section.special {
+  text-align: center;
+}
+
+.wrapper {
+  padding: 6em 0 4em 0;
+}
+
+.wrapper.skill-style {
+  background: #5DBCD2;
+}
+
+
+#header .container {
+  position: relative;
+}
+
+  #header .container h1 {
+    left: 0;
+  }
+
+  #header .container nav {
+    right: 0;
+  }
+
+	header.major {
+    position: relative;
+    color: #333C42;
+	}
+
+		header.major:after {
+			background: #333C42;
+			content: '';
+			display: inline-block;
+			height: 3px;
+			margin: 0 0 2em 0;
+			width: 6em;
+		}
+
+		header.major.alt {
+			text-align: center;
+			margin-bottom: 2em;
+    }
+    
+    .icon {
+      text-decoration: none;
+      border-bottom: none;
+      position: relative;
+    }
+  
+      .icon:before {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        text-transform: none !important;
+      }
+  
+      .icon > .label {
+        display: none;
+      }
+
+      .feature {
+        margin: 0 0 2em 0;
+        padding: 2em 0 2em 9em;
+        position: relative;
+      }
+    
+        .feature i {
+          border-radius: 100%;
+          border: solid 3px #333C42;
+          color: #333C42;
+          display: block;
+          height: 7em;
+          left: 0;
+          line-height: 6.75em;
+          margin-top: -0.5em;
+          position: absolute;
+          text-align: center;
+          top: 2em;
+          width: 7em;
+        }
+    
+          .feature i:before {
+            font-size: 40px;
+          }
+    
+        .feature h3 {
+          margin-bottom: 0.2em;
+          color: #333C42;
+          font-size: 18px;
+        }
+        .feature p {
+          color: #333C42;
+        }
+    
+        .feature h5 {
+          margin-bottom: 0.2em;
+        }
+          .feature h5.advanced {
+            color: #8A05DB;
+            font-size: 15px;
+          }
+          .feature h5.intermediate {
+            color: #DEE95C;
+            font-size: 15px;
+          }
+          .feature h5.beginner {
+            color: #8CF96F;
+            font-size: 15px;
+          }
+    
+        .feature p {
+          margin-bottom: 0;
+          font-size: 15px;
+        }
